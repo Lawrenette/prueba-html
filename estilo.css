@@ -1,0 +1,104 @@
+body {
+	background-image: url(images/fondo.png);
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #14417b;
+	text-align: center;
+	font-family: 'Delius', cursive;
+}
+h2 {
+	color: #14417b;
+	text-align: center;
+	font-family: 'Delius', cursive;
+}
+h3 {
+	color: #14417b;
+	font-family: 'Delius', cursive;
+}
+h4{
+	color: #14417b;
+}
+hr {
+	color: #2626;
+}
+/*========================
+--- MAIN INDEX ---
+==========================*/
+.historia {
+	color: #14417b;
+	text-align: center;
+}
+.img-thumbnail {
+	background-color: #f5d57a;
+}
+.img-not{
+	height: 30vh;
+	padding-left: 55px;
+	padding-top: 15px;
+}
+#contacto {
+	background-color: transparent;
+}
+/*========================
+--- HEADER ---
+==========================*/
+.jumbotron {
+	text-align: center;
+	background-image: url(images/fondito.jpg);
+	color: #14417b;
+	border-radius: 0;
+}
+.titulo {
+	font-size: 300%;
+	color: #14417b;
+	font-family: 'Merienda';
+}
+/*========================
+--- NAVBAR ---
+==========================*/
+#sticky-sidebar {
+    min-height: 100vh;
+}
+.nav-item {
+	padding-left: 30px;
+}
+@media (max-width: 576px){
+	.barra {
+		display: none;
+	}
+}
+/*========================
+--- MAPA ---
+==========================*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* =====================
+--- FOOTER ---
+=========================*/
+ .lawren {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: 'Delius', cursive;
+
+}
+.lawren p {
+  padding-top: 20px;
+}
+
+#linea {
+	width: 180px;
+	border-color: #2626;
+}
